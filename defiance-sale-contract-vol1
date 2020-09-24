@@ -77,12 +77,12 @@ contract DefianceSaleVol1 is Ownable {
   using SafeMath for uint256;
   Token token;
 
-  uint256 public constant RATE = 1600; // Number of tokens per Ether
-  uint256 public constant CAP = 469; // Cap in Ether
+  uint256 public constant RATE = 1150; // Number of tokens per Ether
+  uint256 public constant CAP = 1521; // Cap in Ether
   uint256 public constant START = 1597669200; // Mar 26, 2018 @ 12:00 EST
-  uint256 public constant DAYS = 45; // 45 Day
+  uint256 public constant DAYS = 7; // 7 Day
 
-  uint256 public constant initialTokens = 750400 * 10**18; // Initial number of tokens available
+  uint256 public constant initialTokens = 1749150 * 10**18; // Initial number of tokens available
   bool public initialized = false;
   uint256 public raisedAmount = 0;
 

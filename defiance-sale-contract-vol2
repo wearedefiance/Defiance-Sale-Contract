@@ -79,7 +79,7 @@ contract DefianceSaleVol2 is Ownable {
 
   uint256 public constant RATE = 1000; // Number of tokens per Ether
   uint256 public constant CAP = 2500; // Cap in Ether
-  uint256 public constant START = 1597669200; // Mar 26, 2018 @ 12:00 EST
+  uint256 public constant START = 1605891600; // Nov 20, 2020 @ 17:00 UTC
   uint256 public constant DAYS = 7; // 7 Day
 
   uint256 public constant initialTokens = 2500000 * 10**18; // Initial number of tokens available
